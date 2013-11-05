@@ -1,5 +1,7 @@
 package edu.sjsu.cmpe.library;
 
+import com.yammer.dropwizard.lifecycle.ServerLifecycleListener;
+import de.spinscale.dropwizard.jobs.JobsBundle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,19 +16,26 @@ import edu.sjsu.cmpe.library.config.LibraryServiceConfiguration;
 import edu.sjsu.cmpe.library.repository.BookRepository;
 import edu.sjsu.cmpe.library.repository.BookRepositoryInterface;
 import edu.sjsu.cmpe.library.ui.resources.HomeResource;
+import edu.sjsu.cmpe.library.Listener.ConsumeFromTopics;
 
 public class LibraryService extends Service<LibraryServiceConfiguration> {
 
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     public static void main(String[] args) throws Exception {
-	new LibraryService().run(args);
+
+        new LibraryService().run(args);
     }
 
     @Override
     public void initialize(Bootstrap<LibraryServiceConfiguration> bootstrap) {
 	bootstrap.setName("library-service");
 	bootstrap.addBundle(new ViewBundle());
+    //bootstrap.addBundle(new JobsBundle("edu.sjsu.cmpe.library.Listener"));
+
+    }
+
+    public LibraryService() {
     }
 
     @Override
@@ -38,14 +47,23 @@ public class LibraryService extends Service<LibraryServiceConfiguration> {
 	log.debug("Queue name is {}. Topic name is {}", queueName,
 		topicName);
 	// TODO: Apollo STOMP Broker URL and login
+    String user = configuration.getApolloUser();
+    String password = configuration.getApolloPassword();
+    String host = configuration.getApolloHost();
+    String apolloPort = configuration.getApolloPort();
+    String libraryName = configuration.getLibraryName();
+
+
 
 	/** Root API */
 	environment.addResource(RootResource.class);
 	/** Books APIs */
 	BookRepositoryInterface bookRepository = new BookRepository();
-	environment.addResource(new BookResource(bookRepository));
+	environment.addResource(new BookResource(bookRepository,queueName, topicName, user, password,host,apolloPort,libraryName));
 
 	/** UI Resources */
 	environment.addResource(new HomeResource(bookRepository));
+    environment.addServerLifecycleListener(new ConsumeFromTopics(user, password, host, apolloPort, libraryName, bookRepository));
+
     }
 }

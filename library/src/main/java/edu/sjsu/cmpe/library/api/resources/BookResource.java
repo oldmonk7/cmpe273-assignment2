@@ -16,6 +16,7 @@ import javax.ws.rs.core.Response;
 
 import com.yammer.dropwizard.jersey.params.LongParam;
 import com.yammer.metrics.annotation.Timed;
+import edu.sjsu.cmpe.library.LibraryService;
 
 import edu.sjsu.cmpe.library.domain.Book;
 import edu.sjsu.cmpe.library.domain.Book.Status;
@@ -23,6 +24,18 @@ import edu.sjsu.cmpe.library.dto.BookDto;
 import edu.sjsu.cmpe.library.dto.BooksDto;
 import edu.sjsu.cmpe.library.dto.LinkDto;
 import edu.sjsu.cmpe.library.repository.BookRepositoryInterface;
+import edu.sjsu.cmpe.library.config.LibraryServiceConfiguration;
+
+import javax.jms.Connection;
+import javax.jms.DeliveryMode;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.MessageProducer;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+import org.fusesource.stomp.jms.StompJmsConnectionFactory;
+import org.fusesource.stomp.jms.StompJmsDestination;
 
 @Path("/v1/books")
 @Produces(MediaType.APPLICATION_JSON)
@@ -31,14 +44,37 @@ public class BookResource {
     /** bookRepository instance */
     private final BookRepositoryInterface bookRepository;
 
+    private String queueName;
+    private String topicName;
+    private String user;
+    private String password;
+    private String host;
+    private String apolloPort;
+    private String libraryName;
+
     /**
      * BookResource constructor
      * 
      * @param bookRepository
      *            a BookRepository instance
      */
-    public BookResource(BookRepositoryInterface bookRepository) {
-	this.bookRepository = bookRepository;
+    public BookResource(BookRepositoryInterface bookRepository,
+                        String queueName,
+                        String topicName,
+                        String user,
+                        String password,
+                        String host,
+                        String apolloPort,
+                        String libraryName) {
+	    this.bookRepository = bookRepository;
+        this.queueName = queueName;
+        this.topicName = topicName;
+        this.user = user;
+        this.password = password;
+        this.host = host;
+        this.apolloPort = apolloPort;
+        this.libraryName = libraryName;
+
     }
 
     @GET
@@ -88,12 +124,25 @@ public class BookResource {
 	    @DefaultValue("available") @QueryParam("status") Status status) {
 	Book book = bookRepository.getBookByISBN(isbn.get());
 	book.setStatus(status);
-
-	BookDto bookResponse = new BookDto(book);
+        System.out.println("New Status: " + book.getStatus());
+        BookDto bookResponse = new BookDto(book);
 	String location = "/books/" + book.getIsbn();
 	bookResponse.addLink(new LinkDto("view-book", location, "GET"));
 
-	return Response.status(200).entity(bookResponse).build();
+
+
+
+        //System.out.println("Sending messages to " + dest + "...");
+        if(status.getValue().equals("lost")){
+        try {
+           sendMessageToQueue(book.getIsbn()) ;
+        } catch (JMSException e) {
+            System.out.println("Could not send the message :(");
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        }
+
+        return Response.status(200).entity(bookResponse).build();
     }
 
     @DELETE
@@ -106,5 +155,33 @@ public class BookResource {
 
 	return bookResponse;
     }
+
+
+
+    private void sendMessageToQueue(Long isbn) throws JMSException {
+
+        StompJmsConnectionFactory factory = new StompJmsConnectionFactory();
+        factory.setBrokerURI("tcp://" + host + ":" + apolloPort);
+
+        Connection connection = null;
+
+        connection = factory.createConnection(user, password);
+
+        connection.start();
+        Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+        Destination dest = new StompJmsDestination(queueName);
+        MessageProducer producer = session.createProducer(dest);
+        producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
+        String data = libraryName +":"+isbn;
+        TextMessage msg = session.createTextMessage(data);
+        msg.setLongProperty("id", System.currentTimeMillis());
+        producer.send(msg);
+        connection.close();
+
+    }
+
+
 }
+
+
 
