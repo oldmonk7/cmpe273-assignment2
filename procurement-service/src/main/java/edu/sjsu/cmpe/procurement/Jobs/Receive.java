@@ -30,7 +30,7 @@ import java.util.List;
  * Time: 10:30 PM
  * To change this template use File | Settings | File Templates.
  */
-@Every("5s")
+@Every("5min")
 public class Receive extends Job{
 
     ProcurementServiceConfiguration config = new ProcurementServiceConfiguration();
