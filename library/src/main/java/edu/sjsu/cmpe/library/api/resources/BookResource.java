@@ -18,6 +18,7 @@ import com.yammer.dropwizard.jersey.params.LongParam;
 import com.yammer.metrics.annotation.Timed;
 import edu.sjsu.cmpe.library.LibraryService;
 
+import edu.sjsu.cmpe.library.Listener.ConsumeFromTopics;
 import edu.sjsu.cmpe.library.domain.Book;
 import edu.sjsu.cmpe.library.domain.Book.Status;
 import edu.sjsu.cmpe.library.dto.BookDto;
@@ -156,7 +157,23 @@ public class BookResource {
 	return bookResponse;
     }
 
+    //@Consumes(MediaType.MEDIA_TYPE_WILDCARD)
+    @POST
+    @Path("/update")
+    @Timed(name = "update-book")
+    public Response updateBook(@Valid String request) {
+        // Store the new book in the BookRepository so that we can retrieve it.
+        Book savedBook = bookRepository.newUpdateBook(request);
+        //ConsumeFromTopics bookupdate = new ConsumeFromTopics();
+        //bookupdate.save
+        String location = "/books/" + savedBook.getIsbn();
+        BookDto bookResponse = new BookDto(savedBook);
+        bookResponse.addLink(new LinkDto("view-book", location, "GET"));
+        bookResponse
+                .addLink(new LinkDto("update-book-status", location, "PUT"));
 
+        return Response.status(201).entity(bookResponse).build();
+    }
 
     private void sendMessageToQueue(Long isbn) throws JMSException {
 

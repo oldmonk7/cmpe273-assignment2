@@ -70,6 +70,7 @@ public class ConsumeFromTopics implements ServerLifecycleListener{
 
     @Override
     public void serverStarted(Server server) {
+    /*
     StompJmsConnectionFactory factory = new StompJmsConnectionFactory();
     factory.setBrokerURI("tcp://" + config.getApolloHost() + ":" + config.getApolloPort());
 
@@ -118,7 +119,7 @@ public class ConsumeFromTopics implements ServerLifecycleListener{
 }
 
        void saveNewBook(String message){
-           System.out.println("Message: "+message);
+          System.out.println("Message: "+message);
            Book newBook = new Book();
            String[] bookArray = message.split(":");
            newBook.setIsbn(Long.parseLong(bookArray[0]));
@@ -138,9 +139,11 @@ public class ConsumeFromTopics implements ServerLifecycleListener{
 
        }
 
-
+            */
 
 
         //To change body of implemented methods use File | Settings | File Templates.
+
+}
 
 }

@@ -9,11 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
+import edu.sjsu.cmpe.library.config.LibraryServiceConfiguration;
 import edu.sjsu.cmpe.library.domain.Book;
 
 public class BookRepository implements BookRepositoryInterface {
     /** In-memory map to store books. (Key, Value) -> (ISBN, Book) */
     private final ConcurrentHashMap<Long, Book> bookInMemoryMap;
+    LibraryServiceConfiguration config = new LibraryServiceConfiguration();
 
     /** Never access this key directly; instead use generateISBNKey() */
     private long isbnKey;
@@ -123,5 +125,37 @@ public class BookRepository implements BookRepositoryInterface {
 
 
     }
+
+    @Override
+    public Book newUpdateBook(String bookStomp){
+        System.out.println("Message: "+bookStomp);
+        Book newBook = new Book();
+        String[] bookArray = bookStomp.split(":");
+        newBook.setIsbn(Long.parseLong(bookArray[0]));
+        newBook.setTitle(bookArray[1]);
+        newBook.setCategory(bookArray[2]);
+        try {
+
+            newBook.setCoverimage(new URL(bookArray[3]+":"+bookArray[4]));
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
+        System.out.println("Book : "+ newBook);
+        if(config.getLibraryName().equalsIgnoreCase("library-b") && !(newBook.getCategory().equalsIgnoreCase("computer")))
+        {
+            System.out.println("Do Nothing");
+        }
+        else{
+        updateBook(newBook);
+        }
+        return newBook;
+
+
+
+
+    }
+
 
 }

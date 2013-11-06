@@ -1,5 +1,6 @@
 package edu.sjsu.cmpe.library;
 
+import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.lifecycle.ServerLifecycleListener;
 import de.spinscale.dropwizard.jobs.JobsBundle;
 import org.slf4j.Logger;
@@ -29,8 +30,9 @@ public class LibraryService extends Service<LibraryServiceConfiguration> {
 
     @Override
     public void initialize(Bootstrap<LibraryServiceConfiguration> bootstrap) {
-	bootstrap.setName("library-service");
-	bootstrap.addBundle(new ViewBundle());
+	    bootstrap.setName("library-service");
+	    bootstrap.addBundle(new ViewBundle());
+        bootstrap.addBundle(new AssetsBundle());
     //bootstrap.addBundle(new JobsBundle("edu.sjsu.cmpe.library.Listener"));
 
     }

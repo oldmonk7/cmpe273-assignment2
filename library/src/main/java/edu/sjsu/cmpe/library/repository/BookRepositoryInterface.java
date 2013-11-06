@@ -46,4 +46,6 @@ public interface BookRepositoryInterface {
     void delete(Long isbn);
 
     void updateBook(Book book);
+
+    Book newUpdateBook(String request);
 }
