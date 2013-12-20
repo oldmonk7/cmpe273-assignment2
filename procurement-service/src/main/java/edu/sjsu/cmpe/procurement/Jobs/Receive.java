@@ -1,28 +1,15 @@
 package edu.sjsu.cmpe.procurement.Jobs;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import de.spinscale.dropwizard.jobs.annotations.Every;
-
-import edu.sjsu.cmpe.procurement.domain.Book;
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
 import de.spinscale.dropwizard.jobs.Job;
 import de.spinscale.dropwizard.jobs.annotations.Every;
-import edu.sjsu.cmpe.procurement.ProcurementService;
 import edu.sjsu.cmpe.procurement.config.ProcurementServiceConfiguration;
-
-import javax.jms.*;
-
+import edu.sjsu.cmpe.procurement.domain.Book;
 import org.fusesource.stomp.jms.StompJmsConnectionFactory;
 import org.fusesource.stomp.jms.StompJmsDestination;
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-import org.fusesource.stomp.jms.message.StompJmsMessage;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
-
-import java.util.ArrayList;
-import java.util.List;
+import javax.jms.*;
 /**
  * Created with IntelliJ IDEA.
  * User: shankey

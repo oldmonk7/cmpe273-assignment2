@@ -29,7 +29,19 @@
      type: 'PUT',
      success: function(data) {
        //alert('Reported lost on ISBN ' + isbn);
-
+       
+       $('button').each(function(i){
+        console.log(i);
+        console.log($( this ).text());
+        var sibling = $(this).parent().siblings('td[name=status]').get(0);
+        console.log(sibling.id);
+        if(sibling.id===$(this).get(0).id && sibling.innerHTML==='lost')
+        {
+          console.log("ready to be disabled");
+          $(this).prop("disabled",true);
+     //window.location.reload();
+   }
+ });  
        window.location.reload();
 
 
@@ -44,14 +56,14 @@
   
   $(document).ready(function() {
   //alert("Inside websocket"); 
-  var url="ws://54.215.210.214:61623";
+  var url="ws://54.219.156.168:61623";
   var login = "admin";
   var password = "password";
   var destination = "/topic/10418.book.*";
   var client = Stomp.client(url);
   client.debug = function(str) {
-            $("#debug").append(str + "\n");
-          };
+    $("#debug").append(str + "\n");
+  };
   client.connect(login,password,
     function(frame){
       /*alert("Inside connect");*/
@@ -60,7 +72,7 @@
         function(message){
           //alert(message.body);
           $.ajax({
-          url: '/library/v1/books/update',
+            url: '/library/v1/books/update',
           //dataType: "json",
           //contentType: "application/json",
           data: message.body,
@@ -72,19 +84,29 @@
           window.location.reload();
 
 
-     },
-     error: function(xhr, status) {
+        },
+        error: function(xhr, status) {
        //alert("Sorry, there was a problem!");
      }
    });
 
 
         });
-        
+      
 
-        });
+    });
 
-    }); 
+}); 
+
+  
+  $( function(){
+
+   
+   
+   
+
+  });
+
 
 /*$(document).ready(function() {
 var connection=new WebSocket("ws://54.215.211.164:8001/library/v1/books",'json');

@@ -14,8 +14,8 @@
     <file path="$PROJECT_DIR$/../stomp-client/java/src/main/java/example/point2point/Producer.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1382841372810" ignored="false" />
     <file path="/BookResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383719577958" ignored="false" />
     <file path="/pom.xml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383095216445" ignored="false" />
-    <file path="/fragment.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383724234488" ignored="false" />
-    <file path="/Dummy.txt" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635597155" ignored="false" />
+    <file path="/fragment.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1387579392007" ignored="false" />
+    <file path="/Dummy.txt" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1386734790609" ignored="false" />
     <file path="/library_a_config.yml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1382992562476" ignored="false" />
     <file path="/library_b_config.yml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1382993214524" ignored="false" />
     <file path="$USER_HOME$/Development/Externals/dropwizard-jobs/pom.xml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383014456035" ignored="false" />
@@ -35,12 +35,30 @@
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/lib/dropwizard-jobs/pom.xml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635152039" ignored="false" />
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/library/src/main/java/edu/sjsu/cmpe/library/LibraryService.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635202635" ignored="false" />
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/library/pom.xml" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635202635" ignored="false" />
-    <file path="/HomeView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635375209" ignored="false" />
+    <file path="/HomeView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385883290182" ignored="false" />
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/library/src/main/java/edu/sjsu/cmpe/library/ui/views/HomeView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635375966" ignored="false" />
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/library/src/main/java/edu/sjsu/cmpe/library/ui/resources/HomeResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635438170" ignored="false" />
-    <file path="/HomeResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383635432739" ignored="false" />
+    <file path="/HomeResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385937817047" ignored="false" />
     <file path="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2/library/src/main/resources/edu/sjsu/cmpe/library/ui/views/home.mustache" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383694188683" ignored="false" />
-    <file path="/home.mustache" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383694179788" ignored="false" />
+    <file path="/home.mustache" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383892467100" ignored="false" />
+    <file path="/app.js" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1383892217353" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/ui/resources/StakeHolderResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384120711942" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/resources/com/eventplanner/ui/views/customer.ftl" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384406977993" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/logs/app.log" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385934001879" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/resources/com/eventplanner/ui/views/serviceprovider.ftl" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384423860641" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/api/resources/LoginResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385969547991" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/ui/views/ServiceProviderView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412340551" ignored="false" />
+    <file path="/ServiceProviderView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412252091" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/ui/resources/ServiceProviderResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412591600" ignored="false" />
+    <file path="/ServiceProviderResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412590707" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/api/EventPlanningService.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412648616" ignored="false" />
+    <file path="/EventPlanningService.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1384412648616" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/ui/views/HomeView.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385883294129" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/ui/resources/HomeResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385937818152" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/api/resources/UserResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385941205547" ignored="false" />
+    <file path="/UserResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385941204888" ignored="false" />
+    <file path="/LoginResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385969529927" ignored="false" />
+    <file path="$PROJECT_DIR$/../cmpe273-project/src/main/java/com/eventplanner/api/resources/StakeHolderResource.java" changelist="dba8597c-3d17-4706-8c84-d0926becef8b" time="1385969770579" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +74,23 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/api/resources/BookResource.java" line="179" class="edu.sjsu.cmpe.library.api.resources.BookResource" package="edu.sjsu.cmpe.library.api.resources">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -102,64 +136,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Receive.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Receive.java">
+      <file leaf-file-name="ProcurementService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/ProcurementService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.3470437">
+            <state line="12" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumeFromTopics.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/Listener/ConsumeFromTopics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="0" selection-start="4608" selection-end="4608" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="61" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/main/resources/edu/sjsu/cmpe/library/ui/views/home.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="57" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="9" selection-start="4468" selection-end="4468" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library_b_config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/config/library_b_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Order.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="9" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+            <state line="24" column="12" selection-start="757" selection-end="757" vertical-scroll-proportion="0.3856041">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receive.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Receive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="12" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,16 +166,7 @@
       <file leaf-file-name="BookResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/api/resources/BookResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="6" selection-start="5065" selection-end="5065" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookRepositoryInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepositoryInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
+            <state line="197" column="52" selection-start="6672" selection-end="6672" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,7 +175,34 @@
       <file leaf-file-name="library_a_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/config/library_a_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="15" column="27" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library_b_config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/config/library_b_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="27" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procurement-service_config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/procurement-service/config/procurement-service_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/src/main/resources/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="30" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,21 +218,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/procurement-service/pom.xml" />
-        <option value="$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/domain/Book.java" />
-        <option value="$PROJECT_DIR$/procurement-service/config/procurement-service_config.yml" />
         <option value="$PROJECT_DIR$/library/pom.xml" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/config/LibraryServiceConfiguration.java" />
-        <option value="$PROJECT_DIR$/library/config/library_a_config.yml" />
-        <option value="$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Order.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/LibraryService.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/ui/views/HomeView.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/ui/resources/HomeResource.java" />
-        <option value="$PROJECT_DIR$/library/src/main/resources/edu/sjsu/cmpe/library/ui/views/home.mustache" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/Listener/ConsumeFromTopics.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepositoryInterface.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/api/resources/BookResource.java" />
+        <option value="$PROJECT_DIR$/library/src/main/resources/edu/sjsu/cmpe/library/ui/views/home.mustache" />
+        <option value="$PROJECT_DIR$/library/config/library_a_config.yml" />
+        <option value="$PROJECT_DIR$/library/config/library_b_config.yml" />
+        <option value="$PROJECT_DIR$/procurement-service/config/procurement-service_config.yml" />
+        <option value="$PROJECT_DIR$/library/src/main/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Order.java" />
         <option value="$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Receive.java" />
       </list>
     </option>
@@ -232,9 +248,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
     <option name="y" value="22" />
-    <option name="width" value="1277" />
+    <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -264,7 +279,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,10 +440,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,200 +535,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Listener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cmpe273-assignment2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,7 +551,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cmpe273-lab4/cmpe273-assignment2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -738,51 +561,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.LibraryService">
-    <configuration default="false" name="LibraryService" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.cmpe.library.LibraryService" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="server config/library_a_config.yml" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/library" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="library" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProcurementService" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="edu.sjsu.cmpe.procurement.ProcurementService" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="server config/procurement-service_config.yml" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/procurement-service" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="procurement-service" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ProcurementService">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -819,19 +598,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -857,6 +623,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -893,16 +672,54 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="LibraryService" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.cmpe.library.LibraryService" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server config/library_b_config.yml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/library" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="library" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProcurementService" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.sjsu.cmpe.procurement.ProcurementService" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="server config/procurement-service_config.yml" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/procurement-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="procurement-service" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.LibraryService" />
       <item index="1" class="java.lang.String" itemvalue="Application.ProcurementService" />
     </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProcurementService" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LibraryService" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -955,7 +772,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1277" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -971,7 +788,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28350934" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2828201" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1049,110 +866,98 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jersey/2.2.0/metrics-jersey-2.2.0-sources.jar!/com/yammer/metrics/jersey/InstrumentedResourceMethodDispatchProvider.java">
+    <entry file="file://$PROJECT_DIR$/library/logs/library-a.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" />
+        <state line="227" column="0" selection-start="21143" selection-end="21143" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/logs/library-b.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/ProcurementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312-sources.jar!/org/eclipse/jetty/server/handler/ContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1088" column="0" selection-start="39133" selection-end="39133" vertical-scroll-proportion="0.33215547" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312-sources.jar!/org/eclipse/jetty/servlet/ServletHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="557" column="0" selection-start="20557" selection-end="20557" vertical-scroll-proportion="0.36042404" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2-sources.jar!/com/yammer/dropwizard/servlets/ThreadNameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.36824325" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312-sources.jar!/org/eclipse/jetty/servlet/ServletHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="686" column="0" selection-start="20832" selection-end="20832" vertical-scroll-proportion="0.2857143" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.2/dropwizard-core-0.6.2-sources.jar!/com/yammer/dropwizard/jersey/OptionalResourceMethodDispatchAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.0" />
+        <state line="37" column="0" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/domain/Book.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jersey/2.2.0/metrics-jersey-2.2.0-sources.jar!/com/yammer/metrics/jersey/InstrumentedResourceMethodDispatchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="52" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="0" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/LibraryService.java">
+    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/api/resources/BookResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="4" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/ui/views/HomeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/ui/resources/HomeResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/resources/edu/sjsu/cmpe/library/ui/views/home.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="57" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+        <state line="197" column="52" selection-start="6672" selection-end="6672" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/config/library_a_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="61" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepositoryInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
+        <state line="15" column="27" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/config/library_b_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="27" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/repository/BookRepository.java">
+    <entry file="file://$PROJECT_DIR$/procurement-service/config/procurement-service_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="9" selection-start="4468" selection-end="4468" vertical-scroll-proportion="0.0">
+        <state line="15" column="27" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/Listener/ConsumeFromTopics.java">
+    <entry file="file://$PROJECT_DIR$/library/src/main/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="4608" selection-end="4608" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/edu/sjsu/cmpe/library/api/resources/BookResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="6" selection-start="5065" selection-end="5065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="9" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="58" column="30" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Receive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.3470437">
+        <state line="19" column="12" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procurement-service/src/main/java/edu/sjsu/cmpe/procurement/Jobs/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="757" selection-end="757" vertical-scroll-proportion="0.3856041">
           <folding />
         </state>
       </provider>
